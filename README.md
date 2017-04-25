@@ -1,6 +1,6 @@
 # npmtest-recordrtc
 
-#### test coverage for  [recordrtc (v5.4.1)](http://RecordRTC.org/)  [![npm package](https://img.shields.io/npm/v/npmtest-recordrtc.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-recordrtc) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-recordrtc.svg)](https://travis-ci.org/npmtest/node-npmtest-recordrtc)
+#### basic test coverage for  [recordrtc (v5.4.1)](http://RecordRTC.org/)  [![npm package](https://img.shields.io/npm/v/npmtest-recordrtc.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-recordrtc) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-recordrtc.svg)](https://travis-ci.org/npmtest/node-npmtest-recordrtc)
 
 #### RecordRTC is a server-less (entire client-side) JavaScript library can be used to record WebRTC audio/video media streams. It supports cross-browser audio/video recording.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-recordrtc/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-recordrtc/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-recordrtc/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-recordrtc/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-recordrtc/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-recordrtc/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-recordrtc/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-recordrtc/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-recordrtc/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-recordrtc/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-recordrtc/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-recordrtc/build/coverage.html/index.html)
 
@@ -88,7 +88,8 @@
         "start": "node server.js"
     },
     "tonicExampleFilename": "npm-test.js",
-    "version": "5.4.1"
+    "version": "5.4.1",
+    "bin": {}
 }
 ```
 
